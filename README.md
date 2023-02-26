@@ -19,10 +19,10 @@ Your users should be able to:
 
 ### Built with
 - Vite
-- [React]
+- [React](https://reactjs.org/)
 - [REST Countries API](https://restcountries.com)
-- [CSS]
-- [Typescript]
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Typescript](https://www.typescriptlang.org/)
 - `data.json` For default data if the Api ever goes down
 
 ## Built By Chukwuebuka Victor Ezeocha
