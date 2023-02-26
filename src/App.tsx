@@ -8,6 +8,14 @@ function App () {
   return (
     <div className="App">
       <Header />
+      <main>
+        <aside>
+          <input type="search" />
+          <input type="text" />
+        </aside>
+        <section>
+        </section>
+      </main>
     </div>
   )
 }
