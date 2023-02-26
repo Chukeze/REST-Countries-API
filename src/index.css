@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --darkmode-bg: hsl(207, 26%, 17%);
+  --darkmode-text-color: hsl(0, 0%, 100%);
+  --darkmode-element-color: hsl(209, 23%, 22%);
+
+  --font-family: 'Nunito Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --fw-light: 300;
+  --fw-regular: 600;
+  --fw-bold: 800;
+
+
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,14 +25,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
@@ -30,7 +33,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
+/*
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -53,17 +56,21 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+}*/
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --light-mode-bg: hsl(0, 0%, 98%);
+    --light-mode-element-color: hsl(0, 0%, 100%);
+    --light-mode-text-color: hsl(200, 15%, 8%);
+    --light-mode-input-color: hsl(0, 0%, 52%);
+    color: var(--light-mode-text-color);
+    background-color: var(--light-mode-bg);
   }
-  a:hover {
-    color: #747bff;
+  input{
+    color: var(--light-mode-input-color);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--light-mode-element-color);
   }
 }
