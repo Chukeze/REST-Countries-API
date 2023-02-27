@@ -1,0 +1,28 @@
+.country-filter-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.country-filter-container__filterButton {
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 3.5px 5px 2px gainsboro;
+}
+
+.country-filter-container__filterButton-searchButtonLayout{
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+}
+
+input[type="search"] {
+    border: none;
+    background-color: transparent;
+    padding-left: .5rem;
+
+    line-height: 1rem;
+    font-stretch: extra-expanded;
+    font-size: .75rem;
+    width: 300px;
+}
