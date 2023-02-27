@@ -1,21 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './component/header/Header'
+import Home from './views/home/Home'
 
 function App () {
   // const [count, setCount] = useState(0)
-
+  //To do: 
+  ////1. Change render from <Home/> to a Use state logic to determine which view is shown Home or Selected
   return (
     <div className="App">
       <Header />
-      <main className='padding-block padding-block-sides | '>
-        <aside className='country-filter-container'>
-          <input className='country-filter-container__filterButton' type="search" />
-          <input className='country-filter-container__filterButton' type="text" />
-        </aside>
-        <section className='card-form-container'>
-        </section>
-      </main>
+      <Home />
     </div>
   )
 }
