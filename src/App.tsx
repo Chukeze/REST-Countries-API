@@ -9,11 +9,11 @@ function App () {
     <div className="App">
       <Header />
       <main>
-        <aside>
-          <input type="search" />
-          <input type="text" />
+        <aside className='country-filter-container'>
+          <input className='country-filter-container__filterButton' type="search" />
+          <input className='country-filter-container__filterButton' type="text" />
         </aside>
-        <section>
+        <section className='card-form-container'>
         </section>
       </main>
     </div>
