@@ -1,15 +1,12 @@
-import React from 'react'
+import React from 'react';
+import CardDetails from '../cardDetails/CardDetails';
+//import {retrieve} from '../../assets/data/default/retrievial'
 
 const Card = () => {
+  //let leng = retrieve.length
   return (
     <div className='card'>
-        <div className="countryFlag">
-            
-        </div>
-        <p className="countryName"></p>
-        <p className="population">Population: </p>
-        <p className="region">Region:</p>
-        <p className="capital">Capital:</p>
+      <CardDetails />
     </div>
   )
 }
