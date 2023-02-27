@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .5px solid whitesmoke;
+    box-shadow: 0 .5px .5px 1px rgba(175, 174, 174, 0.5);
+}
+
+.color-theme-container{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
+}
+
+h2{
+    font-weight: var(--fw-regular);
+    font-size: 1rem;
+}

@@ -1,7 +1,6 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
 }
 
 .App{
@@ -10,3 +9,11 @@
   grid-auto-rows: auto;
 }
 
+.padding-block-sides{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.padding-block{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

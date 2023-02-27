@@ -8,7 +8,7 @@ function App () {
   return (
     <div className="App">
       <Header />
-      <main>
+      <main className='padding-block padding-block-sides | '>
         <aside className='country-filter-container'>
           <input className='country-filter-container__filterButton' type="search" />
           <input className='country-filter-container__filterButton' type="text" />
