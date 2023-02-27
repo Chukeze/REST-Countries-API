@@ -1,0 +1,6 @@
+.countryName{
+    font-size: 1rem;
+    font-weight: var(--fw-bold);
+
+    margin-bottom: 5px;
+}
