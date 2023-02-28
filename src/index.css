@@ -10,9 +10,14 @@
   --fw-regular: 600;
   --fw-bold: 800;
 
+  --fs-small: .5rem;
+  --fs-regular: 1rem;
+  --fs-large: 2rem;
+  --fs-xtra-large: 4rem;
 
-  line-height: 1.5;
-  font-weight: 400;
+
+  line-height: 1.1rem !important;
+
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -25,13 +30,21 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html,body{
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   display: block;
   /*min-width: 320px;*/
   min-height: 100vh;
-  font-family: var(--font-family);
+  font-family: var(--font-family) !important;
+}
+
+img{
+  margin: 0;
+  padding: 0;
 }
 /*
 h1 {

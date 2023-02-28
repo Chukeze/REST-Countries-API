@@ -1,18 +1,33 @@
+.countryFlag{
+    width: 100%;
+}
 .countryFlag__image{
     width: 100%;
     aspect-ratio: 1;
-    height: 250px;
+    height:125px;
+    image-rendering: crisp-edges;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .countryInfo{
-    padding: .25rem .75rem;
+    --padding: 1rem;
+    padding: var(--padding);
+    width: calc(100% - (var(--padding) * 2) );
+    height: calc(100% - (var(--padding) * 2) );
+    text-align: center;
+    display: flex;
+    justify-content:start;
+    row-gap: .25rem;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .countryInfo--name{
     font-size: 1rem;
     font-weight: var(--fw-bold);
     text-transform: capitalize;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .countryInfo--text{
     font-size: .75rem;
