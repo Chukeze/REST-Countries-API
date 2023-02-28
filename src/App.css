@@ -5,7 +5,7 @@
 
 .App {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto 4fr;
   grid-auto-rows: auto;
 }
 

@@ -4,7 +4,6 @@ import Header from './component/header/Header'
 import Home from './views/home/Home'
 
 function App () {
-  // const [count, setCount] = useState(0)
   //To do: 
   ////1. Change render from <Home/> to a Use state logic to determine which view is shown Home or Selected
   return (

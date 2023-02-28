@@ -2,6 +2,7 @@ import React from 'react'
 import Card from '../../component/cards/Card';
 import './Home.css';
 
+
 const Home = () => {
   return (
     <>
@@ -15,8 +16,8 @@ const Home = () => {
             <input className='country-filter-container__filterButton' type="text" />
         </aside>    
         <main className='padding-block padding-block-sides '>
-            <section className='card-form-container'>
-                <Card/>
+            <section className='cardList-form-container'>
+                <Card />
             </section>
         </main>
     </>
